@@ -1,0 +1,28 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "Dharmesh Singh",
+      "age": "27",
+      "class": "BCA",
+      "subject": [
+        {
+          "java": "88",
+          "angular": "85"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rupi",
+      "age": 25,
+      "class": "MCA",
+      "subject": [
+        {
+          "java": 95,
+          "angular": 97
+        }
+      ]
+    }
+  ]
+}

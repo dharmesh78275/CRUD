@@ -1,0 +1,29 @@
+<a [routerLink]="['/']"> >Back To Home</a>
+
+<h2>Update Student</h2>
+
+<form id="formNewStudent" name="formNewStudent" #studentData="ngForm" (ngSubmit)="updateStudent(studentData.value,$event)">
+
+  <label>Name :</label>
+  <input type="text" name="name" id="name" placeholder="name" [(ngModel)]="data.name" ngModel>
+  <br>
+  <br>
+  <label>Age :</label>
+  <input type="text" name="age" id="age" placeholder="age" [(ngModel)]="data.age" ngModel>
+  <br>
+  <br>
+  <label>Class:</label>
+  <input type="class" name="class" id="class" placeholder="class" [(ngModel)]="data.class" ngModel>
+  <br>
+  <br>
+  <label>Java :</label>
+  <input type="java" name="java" id="java" placeholder="java marks" [(ngModel)]="data.java" ngModel>
+  <br>
+  <br>
+  <label>Angular:</label>
+  <input type="angular" name="angular" id="angular" placeholder="angular marks" [(ngModel)]="data.angular"
+    ngModel>
+  <br>
+  <br>
+  <input type="submit" value="Update Student">
+</form>
